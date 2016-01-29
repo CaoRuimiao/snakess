@@ -1,0 +1,155 @@
+body{
+	min-width: 1000px;
+	margin: 0;
+	padding: 0;
+	background-image: url('../images/1.jpg');
+	/*background-image: url('../images/66.jpg');*/
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#title{
+	width: 600px;
+	height: 600px;
+	background: rgba(195,198,149,0.6);
+	/*background: rgba(166,222,154,0.6);*/
+	border-radius: 6px;
+	font-size: 3em;
+	color: black;
+	text-align: center;
+	line-height: 600px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: 2;
+}
+#biaoti{
+	width: 250px;
+	height: 100px;
+	position: absolute;
+	top: 230px;
+	left: 170px;
+	background: url('../images/title.png');
+}
+#tishi{
+	width: 600px;
+	height: 600px;
+	/*background: url('../images/tishi1.png');*/
+	/*background-repeat: no-repeat;*/
+	position: absolute;
+	top:0px;
+	left: 0px;
+	z-index: 5;
+	display: none;
+}
+#xiangQing{
+	width: 220px;
+	border-radius: 5px;
+	position: absolute;
+	top: 75px;
+	right: 120px;
+}
+#score,#Slength,#shijian{
+	height: 40px;
+	color: white;
+	font-size: 20px;
+	text-align: left;
+	line-height: 30px;
+}
+#fenShu,#changDu{
+	color: red;
+	font-size: 26px;
+	font-style: italic;
+	font-weight: 600;
+}
+/*-------------------------------*/
+#butBox{
+	width: 252px;
+	height:500px;
+	/*background: black;*/
+	border-radius: 5px;
+	padding: 15px;
+	text-align: center;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+#moshi{
+	font-size: 26px;
+	color: white;
+	/*color: black;*/
+}
+.butn{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 90px;
+	border-radius: 6px;
+	font-size: 18px;
+	line-height: 100px;
+	text-align: center;
+	cursor: pointer;
+	/*box-shadow: 0 0 5px white;*/
+	background: url('../images/anniu.png');
+	background-size: cover;
+}
+.b1{
+	top: 70px;
+}
+.b2{
+	top: 190px;
+}
+.b3{
+	top: 310px;
+}
+.but:hover{
+	width: 99px;
+	height: 99px;
+	line-height: 99px;
+}
+#stop,#replay{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	/*background: white;*/
+	font-size: 18px;
+	color: black;
+	text-align: center;
+	line-height: 70px;
+	position: absolute;
+	bottom: 20px;
+	cursor: pointer;
+	/*box-shadow: 1px 1px 5px white;*/
+	background: url('../images/anniu.png');
+	background-size: cover;
+}
+#stop{
+	left: 30px;
+}
+#replay{
+	right: 30px;
+}
+#stop:hover,#replay:hover{
+	width: 69px;
+	height: 69px;
+	line-height: 69px;
+}
+#sence{
+	width: 600px;
+	height: 600px;
+	border: 1px solid #999;
+	border-right: none;
+	border-bottom: none;
+	background: #999;
+	/*box-shadow: 2px 2px 22px #C7C795,-2px -2px 22px #C7C795;*/
+	/*box-shadow: 5px 5px 32px #94D086,-5px -5px 32px #94D086;*/
+	margin: 20px auto;
+	position: relative;
+}
+.block{
+	/*width: 59px;*/
+	/*height: 59px;*/
+	margin:0 1px 1px 0; 
+	background: white;
+	float: left;
+	background-size: cover;
+}
